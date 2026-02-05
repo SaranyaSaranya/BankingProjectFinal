@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cucumber Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EndFlow BDD(failed)">
+    <classes>
+      <class name="runners.EndFlowRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- runners.EndFlowRunner -->
+    </classes>
+  </test> <!-- EndFlow BDD(failed) -->
+</suite> <!-- Failed suite [Cucumber Suite] -->
